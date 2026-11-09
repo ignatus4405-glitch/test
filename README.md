@@ -73,3 +73,7 @@ w32tm.exe /resync /rediscover
 Эти команды не отменяют отдельно заданный флаг надёжного источника.
 
 Документация Microsoft: [средства и параметры службы времени Windows](https://learn.microsoft.com/ru-ru/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings).
+
+## Другие инструкции
+
+- [Nginx Proxy Manager: 3 ресурса на одном внешнем IP, каждый на своём локальном](Nginx-Proxy-Manager-3-services.md) — установка NPM, DNS, проброс портов, три прокси-хоста с Let's Encrypt, вариант с Streams без домена, диагностика ошибок 502/504 и бэкап.
